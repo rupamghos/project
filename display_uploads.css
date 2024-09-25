@@ -1,0 +1,31 @@
+.uploads-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.uploads-table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.uploads-table th,
+.uploads-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.uploads-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+.uploads-table tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}
+
+.upload-image {
+    width: 100px;
+    height: auto;
+    border-radius: 5px; /* Slightly round the image corners */
+}
